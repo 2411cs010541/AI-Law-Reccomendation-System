@@ -1,0 +1,85 @@
+/* General */
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+}
+
+/* Navbar */
+.navbar{
+    box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+
+/* Hero Section */
+.hero{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1600&q=80');
+    background-size:cover;
+    background-position:center;
+    height:90vh;
+}
+
+.hero h1{
+    font-size:55px;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:20px;
+    max-width:700px;
+    margin:auto;
+}
+
+.hero .btn{
+    padding:12px 30px;
+    font-size:20px;
+    border-radius:30px;
+}
+
+/* Cards */
+.card{
+    border:none;
+    transition:0.3s;
+    margin-bottom:25px;
+    border-radius:15px;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card-body h4{
+    color:#0d6efd;
+    font-weight:bold;
+}
+
+/* About */
+.bg-light p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* Footer */
+footer{
+    font-size:16px;
+}
+
+/* Buttons */
+.btn-warning{
+    font-weight:bold;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+.hero h1{
+    font-size:36px;
+}
+
+.hero p{
+    font-size:17px;
+}
+
+}
